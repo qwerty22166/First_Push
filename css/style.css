@@ -1,0 +1,51 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  background-color: #252525;
+  color: #fff;
+}
+.header_nav {
+  width: 87%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.header_nav_logo {
+  font-size: 30px;
+}
+.header_nav_navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+.header_nav_navbar_item {
+  padding-top: 15px;
+}
+.header_nav_navbar_item a {
+  color: #fff;
+  transition: 0.3s all linear;
+}
+.header_nav_navbar_item a:hover {
+  color: tomato;
+}
+
+/*
+   From css
+*/
+
+/*# sourceMappingURL=style.css.map */
